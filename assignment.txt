@@ -1,0 +1,16 @@
+1.different git GUI tools 
+       for windows 
+	  sourcetree
+	  GitHub
+	  Tortoise git
+	for linux
+	   QGit
+	   Gitg
+	   Git Fource
+2.The -u option does the following:
+ For every branch that is up to date or successfully pushed,
+ add upstream (tracking) reference, 
+ used by argument-less git-pull and other commands.
+ So, after pushing your local branch with -u option,
+ this local branch will be automatically linked with remote
+ branch, and you can use git pull without any arguments.
