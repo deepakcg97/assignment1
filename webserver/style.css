@@ -1,0 +1,76 @@
+h1{
+    color: rebeccapurple
+    box-sizing: content-box;  
+    width: 300px;
+    height: 100px;
+    padding: 30px;  
+    border: 10px solid blue;;
+}
+
+  div {
+    width: 20px;
+    height: 20px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  body {
+    background: lightblue url("file:///C:/Users/deepa/Downloads/white-transparent.webp") no-repeat fixed center;
+    background-attachment: fixed;
+  }
+  #example1 {
+    border: 10px dotted black;
+    padding: 15px;
+    background:white;
+    background-clip: border-box;  
+  }
+  #example2 {
+    border: 2px solid black;
+    padding: 25px;
+    background: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+  }
+  h1 {
+    border-bottom: 5px solid red;
+    border-bottom-color: coral;
+  }
+  
+  h2 {
+    border: 2px solid red;
+  padding: 10px;
+  border-bottom-left-radius: 25px;
+  }
+  
+  h3 {
+    border: 2px solid red;
+    padding: 10px;
+    border-bottom-right-radius: 25px;
+  }
+  @charset "UTF-8";
+  p.clear {
+    clear: both;
+  }
+  h6 {
+    column-count: 3;
+    height: 100px;
+  }
+  
+  .newspaper1 {
+    column-fill: auto;
+  }
+  #examp {
+    caption-side: bottom;
+  }
+  .example3 {
+    caret-color: red;
+  }
+  .main {
+
+    display: flex;
+  }
+ 
