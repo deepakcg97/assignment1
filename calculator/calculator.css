@@ -1,0 +1,22 @@
+.title{ 
+    margin-bottom: 100px; 
+    text-align:center; 
+    width: 1000pz; 
+    color:black; 
+    border: solid black 2px; 
+    } 
+
+    input[type="button"] 
+    { 
+    background-color:gray; 
+    color: black; 
+    border: solid black 1px; 
+    width:100% 
+    } 
+
+    input[type="text"] 
+    { 
+    background-color:white; 
+    border: solid black 1px; 
+    width:100% 
+    } 
